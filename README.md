@@ -46,7 +46,7 @@ The LCOI_CrystalAnalysis application can be used in one of the following ways:
 - Make sure these files are located in the same directory or added to your MATLAB path.
 - Launch the app from the MATLAB Command Window using: app = LCOI_CrystalAnalysis_exported;
 
-## Option 2 – Run Via AppDesigner
+## Option 3 – Run Via AppDesigner
 
 For making adjustments to the code one may:
 - Download the files: LCOI_CrystalAnalysis.mlapp and all required external function files (.m files used by the app).
