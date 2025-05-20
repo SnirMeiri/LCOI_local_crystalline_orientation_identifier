@@ -29,8 +29,10 @@ LCOI is designed to extract orientation information about local crystalline orde
 
 ![Summary of the general work-flow of the orientation identification process, demonstrated using TEM data. The result shows the color-coded orientations of the identified 2-fold symmetric hexagonal crystalline order.](User%20guide%20images/over1.png)
 
-After loading the image and optionally adjusting the contrast, the user can apply particle detection or upload pre-identified data. The user then creates a mask (hull) by manually selecting particles of the desired symmetry, which is subsequently symmetrized by the software. The options are triangular, rectangular and hexagonal, where the last two can either have 2-fold symmetry or 4-fold and 6-fold, respectively. Next, the local orientation of the optimal fits of the created mask to the identified particles is detected and color-coded. A more detailed scheme of the orientation detection is:
-![Schematic representation of the process of optimal fitting of the masks.](User%20guide%20images/over2.png)
+After loading the image and optionally adjusting the contrast, the user can apply particle detection or upload pre-identified data. The user then creates a mask (hull) by manually selecting particles of the desired symmetry, which is subsequently symmetrized by the software. The options are triangular, rectangular and hexagonal, where the last two can either have 2-fold symmetry or 4-fold and 6-fold, respectively. Next, the local orientation of the optimal fits of the created mask to the identified particles is detected and color-coded. 
+
+![Detailed schematic representation of the process of optimal fitting of the masks.](User%20guide%20images/over2.png)
+
 After particles identification and mask creation, the following step is particle pairs identification by considering all particles below a distance threshold set by considering the created mask. Then, a fitting mask is located as if each pair corresponds to an edge of the mask. These initial guesses are screened for the sum of the distances to the closest particles to each mask's vertex.  Next, for the screened masks’ location and orientation, the particle associated with each mask’s vertex is identified and the optimal location and orientation is computed analytically. For more details see the attached file: Mask location and rotation optimization. Finally, the mask can be refined using all identified fits by averaging the relevant distances, after which the optimal location and orientation are recomputed.
 
 # Acknowledgements
