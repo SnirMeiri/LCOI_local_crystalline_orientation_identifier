@@ -11,6 +11,9 @@ Detection and analysis of the orientation of local crystalline order arises in d
 # License
 This project is licensed under the [NPOSL-3.0 License](https://spdx.org/licenses/NPOSL-3.0).
 
+# Citation
+This work was published in: [![DOI](https://joss.theoj.org/papers/10.21105/joss.07748/status.svg)](https://doi.org/10.21105/joss.07748). If you use this software in your research please cite it.
+
 # Overview
 The main objective of the application is to identify the orientation of the local crystalline order from crystal imaging data.
 The following figure summarizes the general flow of the identification process:
